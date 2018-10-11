@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_margin="@dimen/marginA"
+    tools:context="com.rabus.simplerssviewer.ActivityUrlAdd"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+    <TextView
+        android:text="@string/title_rss_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences|textMultiLine"
+        android:ems="10"
+        android:id="@+id/new_name"
+        android:layout_weight="0.11"
+        android:contentDescription="@string/title_rss_name" />
+
+    <TextView
+        android:text="@string/title_rss_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/new_link"
+        android:layout_weight="0.11"
+        android:contentDescription="@string/title_rss_link"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:text="@string/saveit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="SaveNameAndLink"
+        />
+</LinearLayout>

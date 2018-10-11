@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kommersant_urls">
+        <item>http://kommersant.ru/rss/daily.xml</item>
+        <item>http://kommersant.ru/rss/money.xml</item>
+        <item>http://kommersant.ru/rss/corp.xml</item>
+        <item>http://kommersant.ru/rss/radio.xml</item>
+        <item>http://kommersant.ru/rss/weekly.xml</item>
+        <item>http://kommersant.ru/rss/news.xml</item>
+        <item>http://kommersant.ru/rss/auto.xml</item>
+        <item>http://kommersant.ru/rss/weekend.xml</item>
+        <item>http://kommersant.ru/rss/ogoniok.xml</item>
+    </string-array>
+    <string-array name="kommersant_titles">
+        <item>Коммерсантъ Газета</item>
+        <item>Коммерсантъ Деньги</item>
+        <item>Коммерсантъ Онлайн</item>
+        <item>Коммерсантъ Радио</item>
+        <item>Коммерсантъ Власть</item>
+        <item>Коммерсантъ Новости</item>
+        <item>Коммерсантъ Автопилот</item>
+        <item>Коммерсантъ Weekend</item>
+        <item>Коммерсантъ Огонёк</item>
+    </string-array>
+    <string name="app_name">RSS Viewer // Simple version // Rabus Corp. since 2004</string>
+    <string name="backtochannels">Список RSS каналов</string>
+    <string name="busy">В процессе ...</string>
+    <string name="button_no">Нет</string>
+    <string name="button_yes">Да</string>
+    <string name="connection_error">Ошибка соединения</string>
+    <string name="imagedescription">Картинка на кнопке</string>
+    <string name="copyright">Рабусов Сергей</string>
+    <string name="link_daily_name">Коммерсантъ ИД</string>
+    <string name="logoDesc">Логотип</string>
+    <string name="nochannel">Канал не выбран</string>
+    <string name="rss">RSS</string>
+    <string name="rss_aboutchannel">О канале</string>
+    <string name="rss_addchannel">Добавить RSS канал</string>
+    <string name="rss_channel_menu_title">Что вы хотите сделать?</string>
+    <string name="rss_delchannel">Удалить канал</string>
+    <string name="rss_read">Прочитать</string>
+    <string name="rss_restoredefurl">Восстановить ссылку по умолчанию</string>
+    <string name="rss_updchannel">Редактировать канал</string>
+    <string name="saveit">Сохранить</string>
+    <string name="title_activity_about_rss">Об RSS канале</string>
+    <string name="title_activity_url_add">Добавить название и ссылку</string>Ы
+    <string name="title_activity_url_upd">Изменить название и ссылку</string>
+    <string name="title_rss_link">Ссылка на RSS канал</string>
+    <string name="title_rss_name">Название RSS канала</string>
+    <string name="xml_error">Ошибка разборщика XML фармата</string>
+    <string name="rss_print">Напечатать</string>
+    <string name="docnotloaded">Документ ещё не загружен</string>
+</resources>

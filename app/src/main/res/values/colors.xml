@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    за символом # следуют альфа-канал (необязательно)
+    и значения для красного, зеленого и синего цветов
+    в виде одного или двух шестнадцатеричных чисел.
+    • #RGB;
+    • #RRGGBB;
+    • #ARGB;
+    • #AARRGGBB.
+    -->
+    <color name="bgcolor_playing">#555555</color>
+    <color name="bgcolor_played">#CCCCCCCC</color>
+    <color name="bgcolor_noplayed">#FFFFFFFF</color>
+    <color name="bgcolor_wait2play">#11334477</color>
+    <!--  полностью непрозрачный синий -->
+    <color name="opaque_blue">#00F</color>
+    <!-- полупрозрачный зеленый: -->
+    <color name="transparent_green">#7700FF00</color>
+    <color name="transparent_red">#77FF0000</color>
+    <color name="transparent_blue">#770000FF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="textcolor">#000</color>
+    <color name="bgtextcolor">#FFF</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="gray">#CCC</color>
+	<color name="bgcommon">#928d8e</color>
+	<color name="titlecolor">#ffe2ffe8</color>
+	<color name="ccffff">#CCFFFF</color>
+	<color name="ffffcc">#FFFFCC</color>
+	<color name="yellow">#FFFF99</color>
+	<color name="baidge">#FF8000</color>
+	<color name="ed">#EDEDED</color>
+	
+	<color name="pressed_button_background">#770000FF</color>
+	<color name="released_button_background">#CCC</color>
+</resources>

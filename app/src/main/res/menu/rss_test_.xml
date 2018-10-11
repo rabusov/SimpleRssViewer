@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_aboutchannel"
+        android:orderInCategory="100"
+        android:title="@string/rss_aboutchannel"/>
+    <item
+        android:id="@+id/action_addchannel"
+        android:orderInCategory="100"
+        android:title="@string/rss_addchannel"/>
+</menu>
